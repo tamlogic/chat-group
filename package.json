@@ -19,7 +19,7 @@
   },
   "scripts": {
     "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
-    "test": "mocha",
+    "test": "jest",
     "start": "node src/app.js",
     "build": "babel src --out-dir dist",
     "serve": "npm run build && node dist/index.js",
